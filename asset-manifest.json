@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MoviesWorld/static/css/main.334bdeb1.css",
+    "main.js": "/MoviesWorld/static/js/main.487f973d.js",
+    "index.html": "/MoviesWorld/index.html",
+    "static/media/search.svg": "/MoviesWorld/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
+    "main.334bdeb1.css.map": "/MoviesWorld/static/css/main.334bdeb1.css.map",
+    "main.487f973d.js.map": "/MoviesWorld/static/js/main.487f973d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.334bdeb1.css",
+    "static/js/main.487f973d.js"
+  ]
+}
