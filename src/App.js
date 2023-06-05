@@ -3,8 +3,9 @@ import SearchIcon from "./search.svg"
 import "./App.css"
 import MovieCard from "./MovieCard"
 
-// 32d88b68    THE KEY GENERATED FROM API (GOT ON GMAIL)
-const API_URL = "http://www.omdbapi.com?apikey=32d88b68"
+//     THE KEY GENERATED FROM API (GOT ON GMAIL)
+// const API_URL = `http://www.omdbapi.com?apikey=process.env.REACT_APP_OMDB_API_KEY`
+const API_URL = `http://www.omdbapi.com?apikey=32d88b68`
 
 
 // TO MAKE THE FIRST CARD 
@@ -24,14 +25,14 @@ const App = () => {
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL} &s=${title}`)
     const data = await response.json()
-
     setMovies(data.Search)
-
   }
+  
 
   useEffect(() => {
     searchMovies("Batman")
   }, [])
+
 
   return(
     <div className="app">
